@@ -1,0 +1,30 @@
+body{
+	background-image: url("https://www.yourgenome.org/sites/default/files/styles/banner/public/banners/facts/what-is-evolution/evolution-01.jpg?itok=BrMgZFuz");
+	background-size:cover;
+}
+h2{
+	text-align=center;
+	font-family: 'Satisfy', cursive;
+	font-size: 30px;
+	color: #00CED1;
+	font-weight:bold;
+}
+p { 
+   color: snow;
+   font-family: 'Satisfy', cursive;
+   font-size: 26px;
+   
+}	
+nav{
+	background-color: snow;
+}
+a { 
+   color: snow;
+   font-family: 'Courgette', cursive;
+   text-align: center; 
+}
+
+h1{
+	font-family: 'Permanent Marker', cursive;
+	color: #00CED1;
+}

@@ -1,0 +1,39 @@
+<% include partials/header %>
+<%include partials/show_header%>
+<div class="container">
+ <div class="row">
+    <div class="col-sm-6">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">What??</span>
+          <p><%=data.timeline[i].what%></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">When??</span>
+          <p><%=data.timeline[i].when%></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">How did they look?</span>
+          <p><%=data.timeline[i].size%></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">How did they come to be?</span>
+          <p><%=data.timeline[i].evolution%></p>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+<% include partials/footer %>

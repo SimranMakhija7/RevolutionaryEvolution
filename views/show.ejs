@@ -1,0 +1,25 @@
+<% include partials/header %>
+<%include partials/show_header%>
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-8 col-sm-12" style="background-color: #B0E0E6">
+    			<h3><strong>Brief Overview</strong></h3>
+    			<p><%=data.briefDescription%></p>
+    		</div>
+    		<div class="col-md-4 col-sm-12" style="background-color: #FFFACD">
+    			<h4><strong>Biological Classification</strong></h4>
+    			<ul>
+					<li>Class:<%=data.taxonomy["class"]%></li>
+					<li>Order:<%=data.taxonomy["order"]%></li>
+					<li>Family:<%=data.taxonomy["family"]%></li>
+					<li>Genus:<%=data.taxonomy["genus"]%></li>
+					<li>Species:<%=data.taxonomy["binomialName"]%></li>
+    			</ul>
+    		</div>
+    	</div>
+    	
+    </div>
+  </div>
+</body>
+
+<% include partials/footer %>

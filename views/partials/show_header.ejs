@@ -1,0 +1,26 @@
+
+<!--navbar-->
+ <div class="container">
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav justify-content-end">
+        <%data.timeline.forEach(function(time){%>
+        <li class="nav-item">
+        <a class="item" href="/show/<%=data.name%>/<%=time.when%>">
+            <%=time.when%>
+        </a>
+        </li>
+        <%});%>        
+    </ul>
+  </div>
+</nav>
+<header class="jumbotron">
+    <h2>
+    <img src="<%= data.coverImageURL %>" >
+    <%=data.name%>
+    </h2>
+</header>
+</div>
