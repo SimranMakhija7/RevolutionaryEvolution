@@ -31,12 +31,13 @@ app.get("/home",function(req,res){
 	}); 
 });
 
+//post route
 app.post("/home",function(req,res){
 		var query = req.body.query;
 	    var url = "show/"+query;
-	    res.render(url);
+	    res.redirect(url);
 	}); 
-
+//show route
 app.get("/show",function(req,res){
 	res.render("show");
 });
@@ -55,6 +56,8 @@ app.get("/show/:name",function(req,res){
 	});
 });
 
+
+//stage0 and stage1 route
 app.get("/show/:name/:time",function(req,res){
 	var name=req.params.name,
 		time=req.params.time;
