@@ -84,9 +84,15 @@ app.get("/show/:name/:time",function(req,res){
 	});
 });
 
+
+
 //server
-var port_number = server.listen(process.env.PORT || 3000);
-app.listen(port_number);
+app.listen(process.env.PORT, process.env.IP, function(){
+   console.log("The Server Has Started!");
+});
+
+// var port_number = server.listen(process.env.PORT || 3000);
+// app.listen(port_number);
 
 
 
