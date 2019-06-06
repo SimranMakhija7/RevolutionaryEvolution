@@ -11,7 +11,7 @@ The website is deployed on heroku. URL :("https://mighty-thicket-20440.herokuapp
 Built With
 [EXPRESS]-The webite makes the use of express framework.It is the fast, unopinionated, minimalist web framework for node.
 [RESTfull Routing]-The website follows the conventional restfull api.
-[GIT API] -("https://sonali0123.github.io/evolution/data.json")
+[GIT API] -("https://sonali623.github.io/evolution/data.json")
 Authors
 Simran Makhija 
 Sonali Patel
