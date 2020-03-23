@@ -2,21 +2,19 @@
  A web application created as a part of Hackbenchers#3, a Hackathon conducted by HackerEarth. 
  It allows users to navigate through the evolution of different species and timeline. By taking input from user, application displays all information about the selected vertebrate.
 
-Dependencies Required
-Q .What all dependencies you need to install and how to install them? A .Express package -- npm install express --save Require package -- npm install require --save EJS package -- npm install ejs Body-Parser -- npm install body-parser --save
+## Dependencies Required
+### Q .What all dependencies you need to install and how to install them? A .Express package -- npm install express --save Require package -- npm install require --save EJS package -- npm install ejs Body-Parser -- npm install body-parser --save
 
-Deployment
-The website is deployed on heroku. URL :("https://mighty-thicket-20440.herokuapp.com")
 
-Built With
+## Built With
 [EXPRESS]-The webite makes the use of express framework.It is the fast, unopinionated, minimalist web framework for node.
 [RESTfull Routing]-The website follows the conventional restfull api.
 [GIT API] -("https://sonali623.github.io/evolution/data.json")
-Authors
+## Authors
 Simran Makhija 
 Sonali Patel
 
-Acknowledgments
+## Acknowledgments
 Hat tip to anyone whose code was used
-Inspiration
+## Inspiration
 Colt Steele
